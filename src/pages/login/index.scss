@@ -1,0 +1,221 @@
+.content {
+  height: calc(100vh - 69px);
+  overflow: hidden;
+  display: flex;
+  .form {
+    width: 350px;
+    margin: auto;
+    padding: 50px 30px;
+    min-width: 300px;
+    h1 {
+      text-align: center;
+      line-height: 16px;
+      font-size: 20px;
+      margin-bottom: 20px;
+    }
+    img {
+      vertical-align: bottom;
+      height: 60px;
+      margin-right: 10px;
+    }
+  }
+}
+.footer {
+  text-align: center;
+  color: #bbb;
+}
+.bg{
+  background-image: url('../../assets/bg.png');
+  background-size: cover;
+}
+.bg2{
+  background-image: url('../../assets/bg2.png');
+  background-size: cover;
+}
+.input{
+  input{
+    border-radius: 20px;
+  }
+}
+
+/** create page #C4C5C0 #F5EBE2 **/
+.ant-checkbox-checked .ant-checkbox-inner {
+  background-color: red;
+  border-color: red;
+}
+.createRight{
+  padding: 20px; height: 100vh;
+} 
+.paddiv{
+  padding: 100px 0 0 30px;
+}
+
+.back,.back:hover,.back:focus{
+  border-radius: 50px; 
+  border: 2px solid #C4C5C0;
+  height: 38px;
+  width: 110px; 
+  color: #C4C5C0;
+  background-color: #F5EBE2;
+  i.anticon{
+    margin: 0 !important;
+  }
+}
+.tiptext{
+  font-size: 64px;
+  color: #F5EBE2;
+}
+.accesstext{
+  padding:30px 0 100px 30px;
+  font-size: 24px;
+  color: #3A4E4D;
+}
+.loginPage,.loginPage:hover,.loginPage:focus{
+   border: 2px solid #F5EBE2; 
+   border-radius: 50px; 
+   color: #F5EBE2;
+   width: 150px;
+   height: 40px;
+   margin-left: 100px;
+
+   background-color: #C4C5C0;
+}
+.createLeft{
+   width: 300px;
+   margin: 100px 0 0 20vw;
+}
+.welcome{
+ margin: 0 0 50px 0 ; 
+}
+.fname{
+  width: 130px;
+  border-radius: 20px; 
+}
+.line{ 
+  display: flex;
+  justify-content: space-between
+}
+.selectDiv{
+  padding-top: 20px;
+  div{
+    border-radius: 50px;
+  }
+}
+.select{
+  width: 100%;
+  border-radius: 50px;
+}
+.email{
+  margin: 20px 0 0 0 ;
+  background-color: #FFF;
+  color: #a5a5a5;
+  opacity:0.7;
+  border: 2px solid #a5a5a5;
+  border-radius: 20px;
+  input{ border-radius: 20px; }
+}
+.Checkbox{
+  margin-left:100px;
+}
+.bottom{
+  
+}
+.createBtn,.createBtn:hover,.createBtn:focus{
+ color: #F1E7DE;
+ background-color: #000;
+ border-radius: 50px; 
+ border: 0;
+}
+ 
+/** sendEmail page #C4C5C0 #F5EBE2 **/
+.bgTxt{
+  font-size: 48px;
+  color: #00282A;
+  font-weight: 700;
+}
+.middleTxt{
+  font-size: 30px;
+  color: #00282A;
+  font-weight: 400;
+}
+.tip{
+  color: #8F9A99;
+  font-size: 24px;
+  font-weight: 400;
+}
+.logoImg{
+  display: flex;
+  justify-content: center;
+  padding: 30vh 0;
+}
+/** login page #C4C5C0 #F5EBE2 **/
+.LOGIN{
+  color:#a5a5a5;
+}
+.IconBtn,.IconBtn:hover,.IconBtn:focus{
+  height:  40px;  
+  padding: '10px 50px';
+  margin: 0 10px;
+  font-size: 24px;
+  font-weight: 600;
+  background-color: #000;
+  border: 2px solid #000;
+  color: #fff; 
+  border: 0;
+}
+.HELLO{
+  color:#000;
+  font-size: 120px;
+}
+.loginBtn,.loginBtn:hover,.loginBtn:focus{
+  margin-top: 50px;
+  height:  50px;
+  width: 150px;
+  background-color: #000;
+  color: #FFF;
+  border-radius: 50px; 
+  border: 0;
+}
+.ForgetPwd{
+  margin:20px 10px;
+  color: #a5a5a5;
+}
+.loginCreateBtn,.loginCreateBtn:hover,.loginCreateBtn:focus{
+  margin-top: 50px;
+  height:  70px;
+  padding: '10px 50px';
+  font-size: 24px;
+  font-weight: 600;
+  background-color: #F5EBE2;
+  border: 2px solid #F5EBE2;
+  color: #000;
+  border-radius: 50px; 
+  border: 0;
+}
+
+.Advocates,.Advocates:hover,.Advocates:focus{ 
+  height:  70px;
+  width: 330px;
+  padding: '10px 50px';
+  margin: 10px;
+  font-size: 24px;
+  font-weight: 600;
+  background-color: #000;
+  border: 2px solid #000;
+  color: #F5EBE2;
+  border-radius: 50px; 
+  border: 0;
+}
+.LawFoundation,.LawFoundation:hover,.LawFoundation:focus{
+  height:  70px;
+  width: 330px;
+  padding: '10px 50px';
+  margin: 10px;
+  font-size: 24px;
+  font-weight: 600;
+  background-color: #F5EBE2;
+  border: 2px solid #000;
+  color: #000;
+  border-radius: 50px; 
+  border: 0;
+}

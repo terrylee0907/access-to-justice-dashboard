@@ -1,0 +1,91 @@
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+button,input,input:focus{border:0 ;outline: none;}
+
+.nav-text{
+  vertical-align:super
+}
+.ant-menu-item-selected{
+  background-color: #F0F2F5!important;
+  color:#1E67D2!important;
+}
+.question{
+  background-image: url('./assets/app-switcher.png');
+}
+.icon{ 
+  width: 28px;height: 28px; background-size: cover;display: inline-block;
+ }
+
+.switcher{ background-image: url('./assets/app-switcher.png'); }
+.question{ background-image: url('./assets/question-circle.png'); }
+.menu1{  background-image: url('./assets/menu1.png');   width: 20px;height: 20px; background-size: cover;}
+.menu2{ background-image: url('./assets/menu2.png'); }
+.menu3{ background-image: url('./assets/menu3.png'); }
+.menu4{ background-image: url('./assets/menu4.png'); }
+.menu4x{ background-image: url('./assets/menu4x.png'); }
+
+.group1{ background-image: url('./assets/group-linkedin.png'); }
+.group2{ background-image: url('./assets/group-location.png'); }
+.group3{ background-image: url('./assets/group-linkedin.png'); }
+.group4{ background-image: url('./assets/group-twitter.png'); }
+
+.chevron-right{ background-image: url('./assets/chevron-right.png') }
+
+.arrow-left{background-image: url('./assets/arrow-left.png') }
+.arrow-up{background-image: url('./assets/arrow-up.png')}
+.arrow-down{background-image: url('./assets/arrow-down.png')}
+
+.hello{background-image: url('./assets/Hello_Icon.png'); width: 158px;height: 38px; background-size: cover; }
+.welcome{background-image: url('./assets/Welcome.png'); width: 320px;height: 60px; background-size: cover; }
+.extracy-log{background-image: url('./assets/logo.png'); width: 158px;height: 28px; background-size: cover; }
+
+.ant-table-pagination.ant-pagination{
+  float:none;
+  text-align: center;
+}
+.ant-pagination-item-active{
+  background:#253858; 
+  border-color: white;
+}
+.ant-pagination-item-active:hover{
+  background:#253858; 
+  border-color: white;
+}
+
+.ant-checkbox-checked .ant-checkbox-inner {
+  background-color: #253858;
+  border-color: #253858;
+}
+
+.ant-pagination-item-active a{
+  color:white;
+}
+.ant-pagination-item-active a:hover{
+  color:white;
+}
+ 
+.between{
+  display: flex;
+  justify-content: space-between;
+} 
+.flex{
+  display: flex;
+}
+.col{
+  display: flex;
+  flex-direction:column
+}
+.center{ 
+  justify-content: center;
+  align-items: center
+}
+.myCard{
+  height: calc(100vh - 69px);
+  overflow-y: scroll;
+}
